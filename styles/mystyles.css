@@ -1,0 +1,103 @@
+a {
+    font-family: fantasy; font-size: 20px; font-style: italic;
+    color: black;
+}
+
+body{
+    background-color: white;
+font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+.common{
+    /*background-color: #cccccc;
+    border: solid 2px white;*/
+    position: absolute;
+}
+.header{
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    z-index: 2;
+    border-bottom: solid 1px #555555;
+}
+
+.leftmenu{
+    top: 114px;
+    left: 5px;
+    width: 100px;
+    bottom: 64px;
+    z-index: 1;
+    padding-top: 45px;
+    border-right:  solid 1px #555555;
+
+}
+.mainbody{
+    top: 114px;
+    bottom: 64px;
+    left: 114px;
+    right: 114px;
+    padding-right: 5px;
+
+}
+.rightmenu{
+    top: 114px;
+    bottom: 64px;
+    right: 5px;
+    width: 100px;
+    border-left: solid 1px #555555;
+    padding-left: 5px;
+}
+.footer{
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: 10px;
+    font-size: 8px;
+    color: #999999;
+    text-align: center;
+    position: fixed;
+}   
+.subheader{
+    float: right;
+
+}
+
+/* These are the approved styles for the site*/
+
+body {font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #666666;
+    background-color: floralwhite;
+    }
+    li {
+        font-size: 14px;
+        font-style: italic;  
+        font-weight: normal;  
+    }
+    a{ color: rgb(226, 43, 43);
+        text-decoration: none;
+    }
+    a:hover{
+        text-decoration: underline;
+        font-weight: bold;
+        font-size: 32px;
+    }
+    a:visited{
+        color: teal;
+    }
+
+    .resumelistheading {
+        font-weight: bold;
+        font-style: normal;
+    }
+    .underline{ text-decoration: underline;}
+    .bold{font-weight: bold;}
+    .justify{text-align: justify;}
+
+    .homebg{
+        background-image: url('images/thumb-1920-1069914.jpeg');
+        background-position: bottom right;
+    }
+    /* These styles are for show*/
+  
+    }
